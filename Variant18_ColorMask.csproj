@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Лабораторная работа 4, вариант 18.
+    Решение открывается в JetBrains Rider (Variant18_ColorMask.sln) или в
+    Visual Studio 2022; сборка из папки проекта:  dotnet build -c Release
+    Запуск (только Windows):                      dotnet run -c Release
+  -->
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <!-- Если в вузе требуется .NET Framework 4.7.2, замените TargetFramework
+         на net472. Для сборки в Rider понадобится установленный .NET Framework
+         Developer Pack (Targeting Pack); код программы при этом не меняется. -->
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <RootNamespace>Lab4Variant18</RootNamespace>
+    <AssemblyName>Variant18ColorMask</AssemblyName>
+  </PropertyGroup>
+
+</Project>

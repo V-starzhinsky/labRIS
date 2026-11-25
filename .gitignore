@@ -1,0 +1,28 @@
+﻿# Build results
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# EF Core
+*.db
+*.db-shm
+*.db-wal
+
+# Secrets
+appsettings.Development.json
+appsettings.Local.json
+*.pfx
+*.snk
+
+# OS
+.DS_Store
+Thumbs.db
